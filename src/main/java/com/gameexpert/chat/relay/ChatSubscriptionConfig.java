@@ -18,7 +18,8 @@ public class ChatSubscriptionConfig {
     ) {
         RedisMessageListenerContainer container = new RedisMessageListenerContainer();
         container.setConnectionFactory(connectionFactory);
-        // TODO Lv 20: 제공된 relay를 채팅 채널의 수신 리스너로 등록합니다.
+        ChannelTopic channelTopic = new ChannelTopic(ChatRelay.CHANNEL);
+        container.addMessageListener(relay, channelTopic);
         return container;
     }
 }
