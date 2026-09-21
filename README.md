@@ -3,6 +3,8 @@
 숙련 주차 프로젝트(Lv 1 ~ Lv 20) 기록을 정리한 문서입니다.
 각 항목을 클릭하면 상세 내용이 펼쳐집니다.
 
+원본 기록: [Notion에서 보기](https://app.notion.com/p/3dba46ce9cf18057b016e7bb318a3311?v=782a46ce9cf1838e944c88c9eddb9bb1&source=copy_link)
+
 ---
 
 <details>
